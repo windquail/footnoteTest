@@ -173,42 +173,45 @@ CODE BLOCKS
 /*****************************************************
 FOOTNOTE STYLING
 *****************************************************/
-
-.littlefoot__button {
-  /* Display & Positioning */
+  
+/*****************************************************
+BLOCKQUOTE
+*****************************************************/
+/*.littlefoot__button {
+  /* Display & Positioning 
   display: inline-flex;
   align-items: center;
   justify-content: center;
   
-  /* Box Model */
+  /* Box Model 
   width: 1rem;
   height: 1rem;
   padding: 0;
   
-  /* Typography */
+  /* Typography 
   font-family: var(--font-body);
   font-size: 0.8rem;
   text-decoration: none;
   color: white;
   
-  /* Visual */
+  /* Visual 
   background: var(--clay);
   border: none;
   border-radius: 50%;
   box-shadow: var(--shadow-sm);
   opacity: 0.6;
   
-  /* Interactivity */
+  /* Interactivity 
   cursor: pointer;
   transition: background var(--transition-fast);
 }
 
 .littlefoot__button:hover,
 .littlefoot__button:focus {
-  /* Typography */
+  /* Typography 
   color: white;
   
-  /* Visual */
+  /* Visual 
   background: var(--text-primary);
   outline: none;
 }
